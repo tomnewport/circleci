@@ -13,3 +13,6 @@ jobs:
     - run:
         name: Run pylint
         command: pylint ./thing
+    - run:
+        name: Reveal a terrible secret
+        command: echo $SECRET_VARIABLE
