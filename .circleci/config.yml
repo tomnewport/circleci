@@ -21,3 +21,7 @@ jobs:
     - run:
         name: See what's up with docker
         command: docker ps
+    - run:
+        name: Build a docker image
+        command: |
+          docker build . -t testing123
