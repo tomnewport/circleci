@@ -18,3 +18,6 @@ jobs:
     - run:
         name: Reveal a terrible secret
         command: echo $SECRET_VARIABLE
+    - run:
+        name: See what's up with docker
+        command: docker ps
