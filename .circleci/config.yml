@@ -7,5 +7,5 @@ jobs:
     steps:
     - checkout
     - run:
-        name: Do something
-        command: ls -ltr
+        name: Run pylint
+        command: pylint ./thing
