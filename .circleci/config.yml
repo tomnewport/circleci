@@ -9,7 +9,7 @@ jobs:
     - run:
         name: Install
         command: |
-          pip --user install pylint
+          pip install --user  pylint
     - run:
         name: Run pylint
         command: pylint ./thing
